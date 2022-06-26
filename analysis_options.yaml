@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    avoid_print: false
+    use_key_in_widget_constructors: false
+    prefer_const_constructors: false
+    constant_identifier_names: false
+    prefer_const_literals_to_create_immutables: false
+    sized_box_for_whitespace: false
+    file_names: false
+    curly_braces_in_flow_control_structures: false
+    implementation_imports: false

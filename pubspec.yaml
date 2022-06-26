@@ -1,0 +1,51 @@
+name: dop_app
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+dependencies:
+  build_runner: ^2.1.11
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_mobx: ^2.0.6+1
+  flutter_svg: ^1.1.0
+  google_fonts: ^3.0.1
+  hive: ^2.2.2
+  http: ^0.13.4
+  intl: ^0.17.0
+  mobx: ^2.0.7+3
+  mobx_codegen: ^2.0.7
+  provider: ^6.0.3
+  flutter_native_splash: ^2.2.3+1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+  flutter_test:
+    sdk: flutter
+flutter_native_splash:
+  color: '#002359'
+  image: 'assets/dop_logo1.png'
+  andriod: true
+  ios: true
+
+flutter:
+
+  
+  uses-material-design: true
+  assets:
+    - assets/dark/icons/
+    - assets/ligth/icons/
+    - assets/ligth/
+    - assets/dark/
+    - assets/
+  
